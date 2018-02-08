@@ -1,5 +1,6 @@
 # Ignore compiled Python files
 *.pyc
-*.html
-*.init
-info.py
+
+# Ignore env settings file
+.env
+

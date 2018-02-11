@@ -20,6 +20,7 @@ class captcha:
     """
     def show_image(self):
         # TODO fallback to PIL.Image open/show
+        print("\n")
         call(["./lib/imgcat", self.filename])
         print("\n\n\n\n")
 

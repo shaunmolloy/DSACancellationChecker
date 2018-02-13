@@ -14,7 +14,6 @@ APPLICATION_REFERENCE = os.environ.get("APPLICATION_REFERENCE")
 
 EMAILS = json.loads(os.environ.get("EMAILS"))
 EMAIL_SERVER_URL = os.environ.get("EMAIL_SERVER_URL")
+EMAIL_SERVER_PORT = os.environ.get("EMAIL_SERVER_PORT")
 EMAIL_SERVER_USERNAME = os.environ.get("EMAIL_SERVER_USERNAME")
 EMAIL_SERVER_PASSWORD = os.environ.get("EMAIL_SERVER_PASSWORD")
-
-TEST_DATE = os.environ.get("TEST_DATE")

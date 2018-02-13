@@ -25,5 +25,5 @@ class helpers:
         # see: self.message
         print(
             "%s[%s]%s" % ("\033[38;5;028m", helpers.get_time(), "\033[0m"),
-            "%s[%s]%s" % ("\033[38;5;200m", message, "\033[0m")
+            "%s%s%s" % ("\033[38;5;200m", message, "\033[0m")
         )

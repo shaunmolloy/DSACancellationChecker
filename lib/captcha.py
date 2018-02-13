@@ -22,7 +22,7 @@ class captcha:
         # TODO fallback to PIL.Image open/show
         print("\n")
         call(["./lib/imgcat", self.filename])
-        print("\n\n\n\n")
+        print("\n\n\n")
 
     """
     Delete image

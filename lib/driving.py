@@ -82,8 +82,11 @@ class test:
             self.b.driver.find_by_name("drivingLicenceSubmit").first.click()
 
             # Captcha
-            self.captcha()
-            self.b.driver.find_by_name("recaptchaSubmit").first.click()
+            try:
+                self.captcha()
+                self.b.driver.find_by_name("recaptchaSubmit").first.click()
+            except Exception:
+                pass
 
             # TODO Loop this, randomly every 1-2 mins
             # TODO Test list isn't empty
